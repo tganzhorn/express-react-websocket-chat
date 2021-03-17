@@ -22,5 +22,5 @@ Launches only the client development server.
 
 ### `npm run server`
 
-Launches only the backend server.
+Launches the production server. Be wary to use `npm run build` before launching the production server.
 

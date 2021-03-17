@@ -3,4 +3,7 @@ npm-debug.log
 .gitignore
 README.md
 public
+*.bat
+LICENSE
+Dockerfile
 src

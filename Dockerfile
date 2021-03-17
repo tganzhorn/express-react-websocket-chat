@@ -4,6 +4,8 @@ WORKDIR /usr/src/app
 
 COPY package*.json ./
 
+RUN npm config set proxy %insert_proxy_here%
+RUN npm config set https-proxy %insert_proxy_here%
 RUN npm install --only=production
 RUN rm package*.json
 
